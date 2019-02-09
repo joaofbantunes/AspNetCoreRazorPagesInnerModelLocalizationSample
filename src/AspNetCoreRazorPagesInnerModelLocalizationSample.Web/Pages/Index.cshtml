@@ -1,0 +1,21 @@
+﻿@page
+@model AspNetCoreRazorPagesInnerModelLocalizationSample.Web.Pages.IndexModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div class="form-group">
+        <label asp-for="Input.Test"></label>
+        <input asp-for="Input.Test" class="form-control" />
+        <span asp-validation-for="Input.Test" class="text-danger"></span>
+    </div>
+</body>
+</html>
